@@ -23,11 +23,10 @@ const NavBar = () => {
             <span className='nav-icon'></span>
         </label>
         <ul className="menu">
-            <li><Link to='#'>Header</Link></li>  
-            <li><Link to='#'>About Us</Link></li>  
-            <li><Link to='#'>Features</Link></li>  
-            <li><Link to='#'>Offer</Link></li>  
-            <li><Link to='#'>Contact</Link></li>  
+            <li><Link to='main'smooth={true} duration={1000} >Header</Link></li>  
+            <li><Link to='about' smooth={true} duration={1000}>About Us</Link></li>  
+            <li><Link to='features' smooth={true} duration={1000}>Features</Link></li>  
+            <li><Link to='contact' smooth={true} duration={1000}>Contact</Link></li>  
 
         </ul>
     </nav>
